@@ -1,9 +1,11 @@
-def getTodos(filepath="todos.txt"):
+FILEPATH = "todos.txt"
+
+def getTodos(filepath=FILEPATH):
     with open(filepath, "r") as file:
         todoslocal= file.readlines()
     return todoslocal
 
-def writeTodos(todosARG, filepath="todos.txt"):
+def writeTodos(todosARG, filepath=FILEPATH):
     with open(filepath, "w") as file:
         file.writelines(todosARG)
     return
