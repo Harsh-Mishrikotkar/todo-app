@@ -1,6 +1,4 @@
-add
 test
 fix
 edit
 git
-complete todo
